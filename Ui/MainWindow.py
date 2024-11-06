@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'D:\PyCharm Community Edition 2024.2.1\B-i\Ui\MainWindow.ui'
+# Form implementation generated from reading ui file 'C:\Users\Huynguyen\Downloads\Học kì 1 2024 - 2025\Tư duy lập trình kì 1\B-i\Ui\MainWindow.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -61,7 +61,7 @@ class Ui_MainWindow(object):
         self.pushButton_2.setObjectName("pushButton_2")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 26))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 22))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
