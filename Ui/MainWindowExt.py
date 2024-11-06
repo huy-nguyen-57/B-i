@@ -11,7 +11,9 @@ class MainWindowExt(Ui_MainWindow):
         super().setupUi(MainWindow)
         self.MainWindow = MainWindow
         self.pushButton.clicked.connect(self.calculateBMI)
-        self.pushButton_2.clicked.connect(close)
+        self.pushButton_2.clicked.connect(self.Signalandslot)
+    def Signalandslot(self):
+        self.pushButton_Thoat.clicked.connect(self.processExit)
 
     def calculateBMI(self):
         weight = float(self.lineEdit.text())
